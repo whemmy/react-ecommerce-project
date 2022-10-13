@@ -13,7 +13,7 @@ import { useUserContext } from '../context/user_context'
 import { formatPrice } from '../utils/helpers'
 import { useNavigate } from 'react-router-dom'
 
-const promise = loadStripe(process.env.React1_App1_Stripe1_Public1_Key01)
+const promise = loadStripe(process.env.React1_App1_Stripe1_Public1_Key1)
 
 const CheckoutForm = () => {
   const { cart, total_amount, shipping_fee, clearCart } = useCartContext()
