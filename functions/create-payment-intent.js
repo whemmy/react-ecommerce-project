@@ -2,7 +2,7 @@
 
 require('dotenv').config()
 
-const stripe = require('stripe')(process.env.react_app_Stripe_secret_key01)
+const stripe = require('stripe')(process.env.React1_App1_Stripe1_Secret1_Key01)
 
 exports.handler = async function(event, context) {
   if (event.body) {
